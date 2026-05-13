@@ -34,9 +34,9 @@
     <td align="center" width="50%">
       <img src="/metrics.plugin.languages.details.svg" alt="Languages Metrics" width="400" />
     </td>
-    <td align="center" width="50%">
+   <!-- <td align="center" width="50%">
       <img src="/metrics.plugin.code.svg" alt="Code Metrics" width="750" />
-    </td>
+    </td> -->
   </tr>
 </table>
 
@@ -50,7 +50,7 @@
 
 ---
 
-<table align="center">
+<!-- <table align="center">
   <tr>
     <td align="center">
       <img src="/metrics.plugin.achievements.compact.svg" alt="Achievements" width="550" />
@@ -60,8 +60,9 @@
     </td>
   </tr>
 </table>
-
 ---
+-->
+
 
 ### 📅 Contribution Calendar
 <p align="center">
