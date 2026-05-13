@@ -25,15 +25,15 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: JavaScript or TypeScript snippet of the day
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_code: yes
-          plugin_code_languages: javascript, typescript
-          plugin_code_load: 400
+      #- name: JavaScript or TypeScript snippet of the day
+      #  uses: lowlighter/metrics@latest
+      #  with:
+      #    filename: metrics.plugin.code.svg
+      #    token: ${{ secrets.METRICS_TOKEN }}
+      #    base: ""
+      #    plugin_code: yes
+      #    plugin_code_languages: javascript, typescript
+      #    plugin_code_load: 400
 
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
@@ -46,15 +46,15 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
 
-      - name: WakaTime
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.wakatime.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+      #- name: WakaTime
+      #  uses: lowlighter/metrics@latest
+      #  with:
+      #    filename: metrics.plugin.wakatime.svg
+      #    token: NOT_NEEDED
+      #    base: ""
+      #    plugin_wakatime: yes
+      #    plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+      #    plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
 
 
       - name: achievements
