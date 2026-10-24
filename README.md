@@ -47,7 +47,7 @@
 ---
 <div align="center">
   <a href="https://streak-stats.demolab.com?user=LuisFelipePoma&theme=shades-of-purple&hide_border=true&border_radius=10&background=10%2C0E5D78%2C1C1E3E">
-    <img src="https://streak-stats.demolab.com?user=LuisFelipePoma&theme=shades-of-purple&hide_border=true&border_radius=10&background=10%2C0E5D78%2C1C1E3E" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=dong4to&theme=shades-of-purple&hide_border=true&border_radius=10&background=10%2C0E5D78%2C1C1E3E" alt="GitHub Streak" />
   </a>
 
 </div>
